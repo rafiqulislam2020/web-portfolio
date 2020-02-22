@@ -63,15 +63,15 @@ img.topimg1 {
     background-repeat: no-repeat;
     background-position: left;
 }
-#full-stack{
-    border-left: 7px solid;
-    border-color:tomato;
-    border-image: 1;
+#full-stack {  
+    border-left: 7px solid; 
+    border-image: linear-gradient(180deg, lightsalmon, tomato);  
+    border-image-slice: 1;
 }
-#baby-web{
-    border-left: 7px solid;
-    border-color: darkblue;
-    border-image: 1;
+#baby-web {  
+    border-left: 7px solid;  
+    border-image: linear-gradient(180deg, blue, cyan);  
+    border-image-slice: 1;
 }
 footer p{
     text-align: center;
